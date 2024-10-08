@@ -20,8 +20,7 @@ public class Chapter5 {
 		 list.add(new Task("2021年12月4日","手帳を買う"));
 		 list.add(new Task("2021年8月10日","散髪に行く"));
 		 list.add(new Task("2021年11月9日","スクールの課題を解く"));
-		 
-		 
+	 
 		 //listのソート
 		 //日付順(昇順)
 		 Collections.sort(list, new SortByDate());

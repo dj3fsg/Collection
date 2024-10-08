@@ -7,7 +7,7 @@ public class Task {
 	private LocalDate date;
     private String task;
     
-     // 文字列→日付へ変換
+     // 文字列→日付へ変換する際のフォーマット
  	DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy年M月d日");
  	
     public Task(String dateString ,String task) {
@@ -27,7 +27,4 @@ public class Task {
     public String toString() {
     	return date +":" +task;
     }
-
-
-
 }
