@@ -16,15 +16,15 @@ public class Task {
     }
     
     public LocalDate getDate(){
-    	return date;
+    	return this.date;
     }
     
     public String getTask() {
-    	return task;
+    	return this.task;
     }
     
     @Override
     public String toString() {
-    	return date +":" +task;
+    	return this.date +":" + this.task;
     }
 }
